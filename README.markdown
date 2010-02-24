@@ -16,27 +16,27 @@ Do whatever yo want
 
 ## How to use it
 
-1. Install Leiningen
+1 Install Leiningen
 
   $ wget http://github.com/technomancy/leiningen/raw/stable/bin/lein
   $ ./lein self-install
 
-2. git clone Chinarro
+2 git clone Chinarro
 
-3. Edit configuration
+3 Edit configuration
 
   $ emacs src/chinarro/configuration
 
-4. Compile
+4 Compile
 
   $ lein deps
   $ lein compile
   $ lein uberjar
 
-5. Run Chinarro bot
+5 Run Chinarro bot
 
   $ java -jar chinarro-standalone.jar bot
 
-6. Run Chinarro web
+6 Run Chinarro web
 
   $ java -jar chinarro-standalone.jar web
