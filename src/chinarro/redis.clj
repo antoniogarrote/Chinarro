@@ -50,14 +50,9 @@
     (do
 
       (redis/with-server
-        {:host "127.0.0.1" :port 6379 :db 0}
+        redis-connection
         (doseq [tag (tags msg)]
           (do
-            (log-warning "I will store ->")
-            (log-warning tuple)
-            (log-warning " key => ")
-            (log-warning (timeline-key (date)))
-            (log-warning "---------------")
             (redis/lpush (tag-key tag) tuple)
             (redis/sadd (tags-key) tag)))
         (redis/lpush (timeline-key (date)) tuple)
@@ -65,12 +60,12 @@
 
 (defn find-messages [key]
   (redis/with-server
-    {:host "127.0.0.1" :port 6379 :db 0}
+    redis-connection
     (map #(chinarro.serialization/deserialize %1) (redis/lrange key 0 -1))))
 
 (defn find-tags []
   (redis/with-server
-    {:host "127.0.0.1" :port 6379 :db 0}
+    redis-connection
     (redis/smembers (tags-key))))
 
 
