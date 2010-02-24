@@ -1,4 +1,4 @@
-# Chinarro The Robot
+# Chinarro
 
 Chinarro is an implementation of ![Pocho](http://github.com/malditogeek/Pocho) written in Clojure:
 
@@ -8,8 +8,8 @@ and store it for you.
 3. The messages can be visited later via web.
 
 ## Author
-Mauro Pompilio <hackers.are.rockstars@gmail.com>
 Antonio Garrote <antoniogarrote@gmail.com>
+Mauro Pompilio <hackers.are.rockstars@gmail.com>
 
 ## License
 Do whatever yo want
