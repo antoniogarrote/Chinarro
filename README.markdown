@@ -42,4 +42,4 @@ Do whatever yo want
     $ java -jar chinarro-standalone.jar web
 
 ## Enjoy
-![Sr. Chinarrro](http://3.bp.blogspot.com/_zPl0NNPeZGo/SxqM-TwN_9I/AAAAAAAAAQc/x5UJNmJ4UdY/s1600-h/sr-chinarro-08-10-09.jpg)
+![Sr. Chinarrro](http://proyectos.elcomerciodigital.com/blogs/musicom/files/2009/10/chinarro1.jpg)
