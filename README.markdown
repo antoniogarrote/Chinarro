@@ -1,6 +1,6 @@
 # Chinarro
 
-Chinarro is an implementation of ![Pocho](http://github.com/malditogeek/Pocho) written in Clojure:
+Chinarro is an implementation of [Pocho](http://github.com/malditogeek/Pocho) written in Clojure:
 
 1. Chinarro talks XMPP and hangs out in your MUC Jabber room waiting for action.
 2. When a \#hashtagged message is emited to the room, Chinarro jumps to scene
@@ -16,27 +16,30 @@ Do whatever yo want
 
 ## How to use it
 
-1 Install Leiningen
+ * Install Leiningen
 
-  $ wget http://github.com/technomancy/leiningen/raw/stable/bin/lein
-  $ ./lein self-install
+    $ wget http://github.com/technomancy/leiningen/raw/stable/bin/lein
+    $ ./lein self-install
 
-2 git clone Chinarro
+* git clone Chinarro
 
-3 Edit configuration
+* Edit configuration
 
-  $ emacs src/chinarro/configuration
+    $ emacs src/chinarro/configuration
 
-4 Compile
+* Compile
 
-  $ lein deps
-  $ lein compile
-  $ lein uberjar
+    $ lein deps
+    $ lein compile
+    $ lein uberjar
 
-5 Run Chinarro bot
+* Run Chinarro bot
 
-  $ java -jar chinarro-standalone.jar bot
+    $ java -jar chinarro-standalone.jar bot
 
-6 Run Chinarro web
+* Run Chinarro web
 
-  $ java -jar chinarro-standalone.jar web
+    $ java -jar chinarro-standalone.jar web
+
+## Enjoy
+![Sr. Chinarrro](http://3.bp.blogspot.com/_zPl0NNPeZGo/SxqM-TwN_9I/AAAAAAAAAQc/x5UJNmJ4UdY/s1600-h/sr-chinarro-08-10-09.jpg)
